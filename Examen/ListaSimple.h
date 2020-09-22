@@ -9,11 +9,13 @@ class ListaSimple
 {
 private:
 	ListaNodo* primero;
+	
 
 public: 
 	ListaSimple();
 
 	bool estaVacia();
+	//int ano, mes Inicio, Mes Final
 	void cargarDatos(int, int, int);
 	double obtenerTotalxMes(int);
 	void eliminarDatosMes(int);

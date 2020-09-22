@@ -3,6 +3,7 @@
 #define UTILERIAS_H
 #include <iostream>
 #include <fstream>
+#include <string>
 using namespace std;
 
 struct registro
@@ -24,7 +25,11 @@ struct registro
 
 class Utilerias
 {
+	
+public:
 	Utilerias();
+
+	fstream archivo;
 
 	//Lee el archivo binario y obtiene la cantidad de registros almacenados
 	int obtenerCantidadRegistros();
