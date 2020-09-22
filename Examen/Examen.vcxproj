@@ -142,12 +142,15 @@
     <ClInclude Include="ArbolBinario.h" />
     <ClInclude Include="ListaNodo.h" />
     <ClInclude Include="ListaSimple.h" />
+    <ClInclude Include="NodoArbol.h" />
     <ClInclude Include="Utilerias.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ArbolBinario.cpp" />
     <ClCompile Include="ListaSimple.cpp" />
     <ClCompile Include="ListaNodo.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="NodoArbol.cpp" />
     <ClCompile Include="Utilerias.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

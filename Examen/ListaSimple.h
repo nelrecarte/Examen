@@ -7,16 +7,16 @@
 
 class ListaSimple
 {
-private:
-	ListaNodo* primero;
 public: 
-	ListaSimple();
+	ListaNodo* primero;
 
+	ListaSimple();
 	bool estaVacia();
 	//int ano, mes Inicio, Mes Final
 	void cargarDatos(int, int, int);
 	double obtenerTotalxMes(int);
 	void eliminarDatosMes(int);
+	
 	
 };
 #endif // !LISTASIMPLE_H

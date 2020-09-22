@@ -47,7 +47,7 @@ void ListaSimple::cargarDatos(int _anio, int mesInicio, int mesFinal)
 				}
 				else
 				{
-					std::cout << "breakpoint 3";
+					//std::cout << "breakpoint 3";
 					ListaNodo* actual = primero;
 
 					while (actual->getSiguiente() != nullptr)
@@ -84,7 +84,6 @@ double ListaSimple::obtenerTotalxMes(int mes)
 		actual = actual->getSiguiente();
 	}
 
-	cout << "El monto total adeudado de las tarjetas de creditos es: " << total << "\n";
 	return total;
 }
 
