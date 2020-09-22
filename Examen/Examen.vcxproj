@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ArbolBinario.h" />
     <ClInclude Include="ListaNodo.h" />
     <ClInclude Include="ListaSimple.h" />
     <ClInclude Include="Utilerias.h" />

@@ -12,6 +12,10 @@ int main()
 
 	funcion.imprimirCantidadPorTipoPago();
 
+	ListaSimple lista;
+	
+	lista.cargarDatos(2009, 1, 5);
+	std::cout << lista.obtenerTotalxMes(2);
 	
 
 	_getch();

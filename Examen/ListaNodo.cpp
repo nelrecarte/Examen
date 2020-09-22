@@ -19,21 +19,25 @@ ListaNodo::ListaNodo(const char* _nombre, const char* _apellido, const char* _ta
 
 void ListaNodo::setNombre(const char* _nombre)
 {
-	strcpy_s(nombre,strlen(_nombre), _nombre);
+	nombre = new char[strlen(_nombre)];
+	strcpy_s(nombre, strlen(_nombre) + 1, _nombre);
 }
 
 void ListaNodo::setLastName(const char* _lastName)
 {
-	strcpy_s(lastname, strlen(_lastName), _lastName);
+	lastname = new char[strlen(_lastName)];
+	strcpy_s(lastname, strlen(_lastName) + 1, _lastName);
 }
 
 void ListaNodo::setCreditCard(const char* _tarjeta)
 {
-	strcpy_s(credit_card, strlen(_tarjeta), _tarjeta);
+	credit_card = new char[strlen(_tarjeta)];
+	strcpy_s(credit_card, strlen(_tarjeta) + 1, _tarjeta);
 }
 void ListaNodo::setDate(const char* _fecha)
 {
-	strcpy_s(date, strlen(_fecha), _fecha);
+	date = new char[strlen(_fecha)];
+	strcpy_s(date, strlen(_fecha) + 1, _fecha);
 }
 
 void ListaNodo::setTotal(double _total)

@@ -9,8 +9,6 @@ class ListaSimple
 {
 private:
 	ListaNodo* primero;
-	
-
 public: 
 	ListaSimple();
 

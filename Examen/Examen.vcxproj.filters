@@ -24,6 +24,9 @@
     <ClInclude Include="ListaNodo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ArbolBinario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ListaSimple.cpp">
