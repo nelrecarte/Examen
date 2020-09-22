@@ -11,5 +11,11 @@ int Utilerias::obtenerCantidadRegistros()
 
 	fstream file("datab.bin" , ios::in | ios::binary);
 
+	if (!file)
+	{
+		cout << "Error al abrir archivo";
+		return;
+	}
 
+	
 }
